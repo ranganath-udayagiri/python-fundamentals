@@ -8,7 +8,7 @@ carries forward instead of being throwaway.
 
 | Day | Topic | Notebook |
 |-----|-------|----------|
-| 1–2 | Variables, data types, dictionaries | [day01-02](day01-02-variables-and-dicts.ipynb) |
+| 1–5 | Variables, dicts, lists, conditionals, loops | [day01-05](day01-05-python-fundamentals.ipynb) |
 
 ## Concepts covered
 
@@ -22,6 +22,23 @@ carries forward instead of being throwaway.
 - `KeyError` vs `TypeError` — missing key vs wrong type
 - `ticket["x"]` demands a field and crashes if absent; `ticket.get("x", default)` asks and degrades gracefully
 - Keys are a contract: `status` and `priority` are different questions and need different keys
+
+**Day 3 — Lists**
+- Ordered collections, zero-based indexing, `IndexError`
+- `[-1]` for the last item; `.append()` to add
+- **List of dictionaries** — the shape every API, DB query and RAG retrieval returns
+- Mutation vs assignment: `.append()` accumulates on re-run, `=` overwrites
+
+**Day 4 — Conditionals**
+- `if / elif / else`; `=` assigns, `==` compares
+- Indentation is syntax, not style — `IndentationError`
+- `elif` stops at the first match, so order the specific conditions first
+
+**Day 5 — Loops**
+- `for` over a list; combined with `if` to build a working triage tool
+- Counting into a variable and filtering into a list — same four-step pattern
+- `while` for unknown-length loops (retries, agent loops); infinite-loop failure mode
+- `break` for early exit
 
 ## Approach
 
