@@ -72,7 +72,7 @@ carries forward instead of being throwaway.
 - pip installs into the active venv and pulls dependencies automatically
 - requirements.txt is committed; .venv never is — the recipe, not the toolbox
 - Local Git flow: edit → git add (stage) → git commit → git push
-- 
+
 ## Approach
 
 Predict → run → break → fix → explain back. Every exercise typed from scratch,
