@@ -6,7 +6,10 @@ carries forward instead of being throwaway.
 
 ## Progress
 
+| Day | Topic | Notebook |
+|-----|-------|----------|
 | 1–9 | Variables, dicts, lists, conditionals, loops, functions, files/JSON, exceptions, classes | [day01-09](day01-09-python-fundamentals.ipynb) |
+| 10 | venv, pip, requirements.txt, local Git workflow | [triage-tool](https://github.com/ranganath-udayagiri/triage-tool) |
 
 ## Concepts covered
 
@@ -64,6 +67,12 @@ carries forward instead of being throwaway.
 - A missing constructor argument raises `TypeError` at creation, so invalid objects can't exist
 - Dicts for raw data in transit; classes for things with required fields and rules
 
+**Day 10 — Local setup: venv, pip, Git**
+- venv = one private Python + packages per project; activation is per terminal
+- pip installs into the active venv and pulls dependencies automatically
+- requirements.txt is committed; .venv never is — the recipe, not the toolbox
+- Local Git flow: edit → git add (stage) → git commit → git push
+- 
 ## Approach
 
 Predict → run → break → fix → explain back. Every exercise typed from scratch,
